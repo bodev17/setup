@@ -17,3 +17,5 @@ services:
 networks:
     nginxproxymanager:
       driver: bridge
+
+# docker-compose up -d
