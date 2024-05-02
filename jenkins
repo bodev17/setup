@@ -9,3 +9,6 @@ RUN add-apt-repository \
    stable"
 RUN apt-get update  -qq \
     && apt-get -y install docker-ce
+
+
+# docker run -d -it -p 8080:8080 -p 50000:50000 -v /var/run/docker.sock:/var/run/docker.sock -v /var/wwwroot/jenkins:/var/jenkins_home jenkins-docker
