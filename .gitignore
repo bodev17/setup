@@ -1,3 +1,5 @@
-./jenkins/jenkins_home
-./nginx-proxy-manager/data
 .idea
+
+/jenkins/jenkins_home
+nginx-proxy-manager/data
+nginx-proxy-manager/letsencrypt
